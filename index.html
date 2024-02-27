@@ -1,13 +1,68 @@
 
 
-
 <!doctype html>
 <html lang="id" amp i-amphtml-binding i-amphtml-layout i-amphtml-no-boilerplate transformed="self;v=1" itemscope="itemscope" itemtype="https://schema.org/WebPage">
 <head>
+<style>
+    /* CSS untuk mempercantik tampilan pop-up */
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #29272d; /* Mengubah warna latar belakang menjadi abu-abu */
+        padding: 20px;
+        border: 2px solid #000000;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 9999;
+        text-align: center; /* Menyusun tombol dan teks ke tengah */
+    }
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 9998;
+    }
+    .popup button {
+        margin-top: 10px; /* Menambah jarak antara tombol */
+    }
+</style>
+</head>
+<body>
+
+<!-- HTML untuk pop-up -->
+<div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">
+    <h2>HARAP DIBACA!!</h2>
+    <p>SEBELUM MELAKUKAN AKTIVASI PASTIKAN AKUN KALIAN SUDAH TERDAFTAR!</p>
+    <button onclick="openLink()">DAFTAR DI SINI</button>
+</div>
+
+<script>
+    // Fungsi untuk menampilkan pop-up saat halaman dimuat
+    window.onload = function() {
+        document.getElementById("overlay").style.display = "block";
+        document.getElementById("popup").style.display = "block";
+    };
+
+    // Fungsi untuk menutup pop-up setelah mengklik tombol "Daftar"
+    function openLink() {
+        window.open("https://rebrand.ly/HITAMSLOTVVIP", "_blank"); // Membuka tautan di tab baru
+        document.getElementById("overlay").style.display = "none";
+        document.getElementById("popup").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
 <meta charset="windows-1252">
 <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Robopragma Hitamslot (2024)</title>
-        
         <meta name="description" content="Cheat Slot " />
         <meta name="Keywords" content="hack slot , cheat slot"/>
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
@@ -2076,24 +2131,7 @@ h2{
         }
         
     </style>
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '748695343838379');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=748695343838379&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-</head>
+    </head>
 <body class="amp-mode-mouse" style="opacity: 1; visibility: visible; animation: 0s ease 0s 1 normal none running none;">
     <div class="navbar">
         
@@ -2101,7 +2139,7 @@ src="https://www.facebook.com/tr?id=748695343838379&ev=PageView&noscript=1"
             <img class="gocap imag" height="50px" src="https://i.ibb.co/x5nTQ5K/Juui-Ev9-1.png">
         </nav>
         <div class="hack">
-            Robopragma v19.1<img width="16" src="">
+            Robopragma v12.09<img width="16" src="">
         </div>
         <div id="container">
             <form>
@@ -2427,7 +2465,7 @@ src="https://www.facebook.com/tr?id=748695343838379&ev=PageView&noscript=1"
             
             setTimeout(
                 function(){
-                    window.location = "https://rebrand.ly/HITAMSLOTVVIP"
+                    window.location = "https://hitamslotvip.com"
                 },
             10000);
             
@@ -2452,6 +2490,7 @@ src="https://www.facebook.com/tr?id=748695343838379&ev=PageView&noscript=1"
                         </div>
                     </div>
                 </b></div><b>
-</b></div></div></div></body>
+</b></div></div></div>
 
+</body>
 </html>
